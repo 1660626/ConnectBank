@@ -1,0 +1,18 @@
+.title-review {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .value-review {
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .medium-plan{
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .block{
+    margin-bottom: 70px;
+  }
