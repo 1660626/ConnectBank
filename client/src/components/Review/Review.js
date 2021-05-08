@@ -1,6 +1,6 @@
 import "./Review.css";
 import axios from "axios";
-import React, { useState, useContext } from "react";
+import React, {  useContext } from "react";
 import { Grid } from "@material-ui/core";
 import { AppContext } from "../../utils/AppContext";
 

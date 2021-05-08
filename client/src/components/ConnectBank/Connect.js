@@ -1,7 +1,6 @@
 import React, { useState,useContext } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {TextField,Select,FormControl,MenuItem,InputLabel} from "@material-ui/core";
-// import Next from "../Next/Next";
 import { AppContext } from "../../utils/AppContext";
 
 const useStyles = makeStyles((theme) => ({

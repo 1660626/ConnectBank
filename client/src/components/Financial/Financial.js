@@ -1,11 +1,13 @@
 import "./Financial.css";
+import React, { useContext } from "react";
 
-import React from "react";
 import Spec from "../../image/cbimage.png";
 import Medi from "../../image/cbimage2.png";
-import Next from "../Next/Next1";
+import { AppContext } from "../../utils/AppContext";
 
 const Financial = () => {
+  let { setchooseStep } = useContext(AppContext);
+
   return (
     <div>
       <div className="content-head">
@@ -59,7 +61,17 @@ const Financial = () => {
           </div>
         </div>
       </div>
-      <Next />
+      <div className="btnNext">
+        <div
+          className="circle-next"
+          onClick={() => {
+           
+            setchooseStep("step4");
+          }}
+        >
+          NEXT
+        </div>
+      </div>
     </div>
   );
 };
